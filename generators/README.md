@@ -29,6 +29,54 @@ Generators are special functions that use `yield` instead of `return` to produce
 python generator_example.py
 ```
 
+## Example Output
+
+```
+==================================================
+Example 1: Countdown Generator
+==================================================
+Starting countdown...
+Count: 5
+Count: 4
+Count: 3
+Count: 2
+Count: 1
+Countdown finished!
+
+==================================================
+Example 2: Fibonacci Generator
+==================================================
+Fibonacci numbers < 100: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+==================================================
+Example 3: Using next() with generator
+==================================================
+Starting countdown...
+First call: 3
+Second call: 2
+Third call: 1
+
+==================================================
+Example 4: Infinite Generator (first 10)
+==================================================
+0 1 2 3 4 5 6 7 8 9 
+
+==================================================
+Example 5: Generator Expression
+==================================================
+List comprehension: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+Generator expression: <generator object demonstrate_generator_expression.<locals>.<genexpr> at 0x102faaa80>
+Values from generator: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+==================================================
+Key Benefits of Generators:
+==================================================
+✓ Memory efficient - values generated on demand
+✓ Can represent infinite sequences
+✓ Can pause and resume execution
+✓ Great for pipeline processing
+```
+
 ## Quick Example
 
 ```python
