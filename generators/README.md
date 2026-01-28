@@ -16,7 +16,7 @@ Generators are special functions that use `yield` instead of `return` to produce
 ### 2. Lazy Evaluation
 
 - Values are computed only when needed
-- You can start processing data before the entire sequence is ready
+- We can start processing data before the entire sequence is ready
 - Perfect for large datasets or streaming data
 
 ### 3. Infinite Sequences
